@@ -1,0 +1,53 @@
+# =========================
+# Node.js / React (TypeScript or JavaScript)
+# =========================
+**/node_modules/
+**/dist/
+**/build/
+**/.env
+**/.env.*.local
+**/.next/
+**/.turbo/
+**/.vite/
+**/coverage/
+**/yarn.lock
+**/package-lock.json
+
+# =========================
+# .NET / .NET Core
+# =========================
+**/bin/
+**/obj/
+**/.vs/
+**/.vscode/
+**/*.db
+**/*.db-shm
+**/*.db-wal
+**/Properties/launchSettings.json
+**/*.user
+**/*.suo
+
+# Optional: ignore secrets or appsettings if stored locally
+**/appsettings.*.json
+
+# =========================
+# Logs / Temp
+# =========================
+**/*.log
+**/*.tmp
+**/*.swp
+
+# =========================
+# IDE / Editor configs
+# =========================
+.vscode/
+.idea/
+*.code-workspace
+
+# =========================
+# OS Specific
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db

@@ -1,0 +1,6 @@
+@TopStoryServerV1_HostAddress = http://localhost:5204
+
+GET {{TopStoryServerV1_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
